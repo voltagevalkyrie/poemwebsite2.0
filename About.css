@@ -1,0 +1,64 @@
+ul {
+ 
+    display: flex;
+    align-content: center;
+    justify-content: center;
+  }
+  
+  ul li {
+    list-style: none;
+  }
+  
+  ul li a {
+    text-transform: capitalize;
+    font-weight: bold;
+    color: black;
+    font-size: 2rem;
+    text-decoration: none;
+    padding: 8px;
+    white-space: nowrap;
+    letter-spacing: 1px;
+    font-family: 'Cookie', cursive;
+  }
+  
+  ul li a:hover {
+    border-bottom: 3px solid black;
+  }
+
+ .photo{
+  height: 400px;
+  width: 450px;
+  background: url("images/bgphoto3.JPG") no-repeat;
+  background-size: cover;
+  position: absolute;
+  border-radius: 50%;
+  opacity: 90%;
+ }
+ body{
+   background-color: #ffe227;
+ }
+ .aboutme h1{
+   font-family: cookie, cursive;
+   font-size:4rem;
+   color: black;
+   text-align: center;
+ }
+ .aboutme p {
+   font-family:cookie, cursive;
+   color:black;
+   margin-left:500px;
+   font-size: 2rem;
+ }
+ span{
+   font-family: impact;
+ }
+ .aboutme h3{
+  font-family: 'Lobster', cursive;
+  margin-left:430px ;
+  font-size:2.5rem;
+  color:black;
+  padding:0%;
+ }
+
+
+ 

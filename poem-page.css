@@ -1,0 +1,46 @@
+ul {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
+ul li {
+  list-style: none;
+}
+
+ul li a {
+  text-transform: capitalize;
+  font-weight: bold;
+  color: black;
+  font-size: 2rem;
+  text-decoration: none;
+  padding: 0.5em;
+  white-space: nowrap;
+  letter-spacing: 1px;
+  font-family: "Cookie", cursive;
+  padding-bottom: 8px;
+}
+
+ul li a:hover {
+  border-bottom: 3px solid black;
+}
+
+h1 {
+  text-align: center;
+  color: black;
+  font-size: 4rem;
+  font-family: cookie, cursive;
+}
+
+textarea {
+  background-color: black;
+
+  width: 350px;
+  height: 450px;
+  font-size: 2rem;
+  color: white;
+  text-align: center;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
